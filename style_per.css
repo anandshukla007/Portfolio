@@ -1,0 +1,147 @@
+body
+{
+  margin: 0;
+  text-align: center;
+  color:white; /*i cab remove*/
+  font-family: 'Merriweather', serif;
+  background-color: grey;
+  background-image: linear-gradient(45deg, #202120 0%, #7a7a75 33%, #151414 66%, #6d6b6b 100%);
+}
+h1
+{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+.head
+{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: white;
+}
+.subhead
+{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #FFE194;
+}
+h3
+{
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container
+{
+  z-index: 50;
+  background-image: url("bkimg7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom:50px;
+}
+.responsive
+{
+  width: 100%;
+  height: auto;
+}
+.btn {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.btn1
+{
+  color: white;
+  border: 2px solid white;
+  margin-bottom: 60px;
+}
+
+.btn1:hover
+{
+  background-color: white;
+  color: black;
+}
+.para
+{
+   margin:40px auto 60px auto;
+   width: 40%;
+}
+.footer-link
+{
+  margin: 20px;
+}
+.para1
+{
+   margin:40px auto auto auto ;
+   width: 30%;
+}
+.middle-container
+{
+  padding-top: 40px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-image: linear-gradient(45deg, #202120 0%, #7a7a75 33%, #151414 66%, #6d6b6b 100%);
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: white;/*Chage it to black*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.home {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  /*border-radius: 8px 8px 0 0;*/
+  color: white;
+}
+.icon:hover
+{
+  border-radius: 8px;
+  background-color: white;/*inerchage the colours*/
+  stroke:black;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
